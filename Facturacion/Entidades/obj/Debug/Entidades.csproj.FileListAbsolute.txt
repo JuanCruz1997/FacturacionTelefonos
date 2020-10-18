@@ -1,0 +1,6 @@
+D:\Proyectos\Facturacion\Entidades\bin\Debug\Entidades.dll
+D:\Proyectos\Facturacion\Entidades\bin\Debug\Entidades.pdb
+D:\Proyectos\Facturacion\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+D:\Proyectos\Facturacion\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+D:\Proyectos\Facturacion\Entidades\obj\Debug\Entidades.dll
+D:\Proyectos\Facturacion\Entidades\obj\Debug\Entidades.pdb

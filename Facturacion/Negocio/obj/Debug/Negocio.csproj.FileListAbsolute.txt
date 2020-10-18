@@ -1,0 +1,9 @@
+D:\Proyectos\Facturacion\Negocio\bin\Debug\Negocio.dll
+D:\Proyectos\Facturacion\Negocio\bin\Debug\Negocio.pdb
+D:\Proyectos\Facturacion\Negocio\bin\Debug\Entidades.dll
+D:\Proyectos\Facturacion\Negocio\bin\Debug\Entidades.pdb
+D:\Proyectos\Facturacion\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+D:\Proyectos\Facturacion\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+D:\Proyectos\Facturacion\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+D:\Proyectos\Facturacion\Negocio\obj\Debug\Negocio.dll
+D:\Proyectos\Facturacion\Negocio\obj\Debug\Negocio.pdb

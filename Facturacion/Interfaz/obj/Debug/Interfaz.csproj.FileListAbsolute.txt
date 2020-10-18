@@ -1,0 +1,15 @@
+D:\Proyectos\Facturacion\Interfaz\bin\Debug\Interfaz.exe.config
+D:\Proyectos\Facturacion\Interfaz\bin\Debug\Interfaz.exe
+D:\Proyectos\Facturacion\Interfaz\bin\Debug\Interfaz.pdb
+D:\Proyectos\Facturacion\Interfaz\bin\Debug\Entidades.dll
+D:\Proyectos\Facturacion\Interfaz\bin\Debug\Negocio.dll
+D:\Proyectos\Facturacion\Interfaz\bin\Debug\Entidades.pdb
+D:\Proyectos\Facturacion\Interfaz\bin\Debug\Negocio.pdb
+D:\Proyectos\Facturacion\Interfaz\obj\Debug\Interfaz.csprojAssemblyReference.cache
+D:\Proyectos\Facturacion\Interfaz\obj\Debug\Interfaz.frmFactura.resources
+D:\Proyectos\Facturacion\Interfaz\obj\Debug\Interfaz.Properties.Resources.resources
+D:\Proyectos\Facturacion\Interfaz\obj\Debug\Interfaz.csproj.GenerateResource.cache
+D:\Proyectos\Facturacion\Interfaz\obj\Debug\Interfaz.csproj.CoreCompileInputs.cache
+D:\Proyectos\Facturacion\Interfaz\obj\Debug\Interfaz.csproj.CopyComplete
+D:\Proyectos\Facturacion\Interfaz\obj\Debug\Interfaz.exe
+D:\Proyectos\Facturacion\Interfaz\obj\Debug\Interfaz.pdb

@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{556060FA-AA57-4660-9201-80A9C839467E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaz", "Interfaz\Interfaz.csproj", "{86C1D8E0-4B00-469B-A8DE-4D83E798880B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Negocio", "Negocio\Negocio.csproj", "{D7A6FBED-BE81-4FD2-8ABD-24FB07D61E93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{556060FA-AA57-4660-9201-80A9C839467E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{556060FA-AA57-4660-9201-80A9C839467E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{556060FA-AA57-4660-9201-80A9C839467E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{556060FA-AA57-4660-9201-80A9C839467E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86C1D8E0-4B00-469B-A8DE-4D83E798880B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86C1D8E0-4B00-469B-A8DE-4D83E798880B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86C1D8E0-4B00-469B-A8DE-4D83E798880B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86C1D8E0-4B00-469B-A8DE-4D83E798880B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7A6FBED-BE81-4FD2-8ABD-24FB07D61E93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7A6FBED-BE81-4FD2-8ABD-24FB07D61E93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7A6FBED-BE81-4FD2-8ABD-24FB07D61E93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7A6FBED-BE81-4FD2-8ABD-24FB07D61E93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A27C5F3E-05D2-4E10-8F20-73A50A0EA007}
+	EndGlobalSection
+EndGlobal
