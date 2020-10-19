@@ -7,3 +7,12 @@ D:\Proyectos\Facturacion\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cach
 D:\Proyectos\Facturacion\Negocio\obj\Debug\Negocio.csproj.CopyComplete
 D:\Proyectos\Facturacion\Negocio\obj\Debug\Negocio.dll
 D:\Proyectos\Facturacion\Negocio\obj\Debug\Negocio.pdb
+D:\Proyectos\FacturacionTelefonos\Facturacion\Negocio\bin\Debug\Negocio.dll
+D:\Proyectos\FacturacionTelefonos\Facturacion\Negocio\bin\Debug\Negocio.pdb
+D:\Proyectos\FacturacionTelefonos\Facturacion\Negocio\bin\Debug\Entidades.dll
+D:\Proyectos\FacturacionTelefonos\Facturacion\Negocio\bin\Debug\Entidades.pdb
+D:\Proyectos\FacturacionTelefonos\Facturacion\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+D:\Proyectos\FacturacionTelefonos\Facturacion\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+D:\Proyectos\FacturacionTelefonos\Facturacion\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+D:\Proyectos\FacturacionTelefonos\Facturacion\Negocio\obj\Debug\Negocio.dll
+D:\Proyectos\FacturacionTelefonos\Facturacion\Negocio\obj\Debug\Negocio.pdb

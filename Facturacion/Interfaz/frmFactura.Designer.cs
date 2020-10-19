@@ -30,39 +30,41 @@
         {
             this.lblInicio = new System.Windows.Forms.Label();
             this.gbLocales = new System.Windows.Forms.GroupBox();
-            this.lblHoraPico = new System.Windows.Forms.Label();
-            this.txtHoraPico = new System.Windows.Forms.TextBox();
-            this.lblHoraNoPico = new System.Windows.Forms.Label();
             this.txtHoraNoPico = new System.Windows.Forms.TextBox();
+            this.lblHoraNoPico = new System.Windows.Forms.Label();
+            this.txtHoraPico = new System.Windows.Forms.TextBox();
+            this.lblHoraPico = new System.Windows.Forms.Label();
             this.gbNacionales = new System.Windows.Forms.GroupBox();
-            this.lblCentro = new System.Windows.Forms.Label();
-            this.lblLitoral = new System.Windows.Forms.Label();
-            this.lblNOA = new System.Windows.Forms.Label();
-            this.lblCuyo = new System.Windows.Forms.Label();
-            this.lblPatagonia = new System.Windows.Forms.Label();
-            this.txtPatagonia = new System.Windows.Forms.TextBox();
-            this.txtCuyo = new System.Windows.Forms.TextBox();
-            this.txtNOA = new System.Windows.Forms.TextBox();
-            this.txtLitoral = new System.Windows.Forms.TextBox();
             this.txtCentro = new System.Windows.Forms.TextBox();
+            this.txtLitoral = new System.Windows.Forms.TextBox();
+            this.txtNOA = new System.Windows.Forms.TextBox();
+            this.txtCuyo = new System.Windows.Forms.TextBox();
+            this.txtPatagonia = new System.Windows.Forms.TextBox();
+            this.lblPatagonia = new System.Windows.Forms.Label();
+            this.lblCuyo = new System.Windows.Forms.Label();
+            this.lblNOA = new System.Windows.Forms.Label();
+            this.lblLitoral = new System.Windows.Forms.Label();
+            this.lblCentro = new System.Windows.Forms.Label();
             this.gbInternacionales = new System.Windows.Forms.GroupBox();
-            this.lblLATAM = new System.Windows.Forms.Label();
-            this.lblNorteamerica = new System.Windows.Forms.Label();
-            this.lblEuropa = new System.Windows.Forms.Label();
-            this.lblAfrica = new System.Windows.Forms.Label();
-            this.lblAsia = new System.Windows.Forms.Label();
-            this.lblOceania = new System.Windows.Forms.Label();
-            this.txtLATAM = new System.Windows.Forms.TextBox();
-            this.txtEuropa = new System.Windows.Forms.TextBox();
-            this.txtAfrica = new System.Windows.Forms.TextBox();
-            this.txtAsia = new System.Windows.Forms.TextBox();
-            this.txtOceania = new System.Windows.Forms.TextBox();
             this.txtNorteamerica = new System.Windows.Forms.TextBox();
+            this.txtOceania = new System.Windows.Forms.TextBox();
+            this.txtAsia = new System.Windows.Forms.TextBox();
+            this.txtAfrica = new System.Windows.Forms.TextBox();
+            this.txtEuropa = new System.Windows.Forms.TextBox();
+            this.txtLATAM = new System.Windows.Forms.TextBox();
+            this.lblOceania = new System.Windows.Forms.Label();
+            this.lblAsia = new System.Windows.Forms.Label();
+            this.lblAfrica = new System.Windows.Forms.Label();
+            this.lblEuropa = new System.Windows.Forms.Label();
+            this.lblNorteamerica = new System.Windows.Forms.Label();
+            this.lblLATAM = new System.Windows.Forms.Label();
             this.btnFacturar = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
             this.btnLimpiarCampos = new System.Windows.Forms.Button();
             this.gbFactura = new System.Windows.Forms.GroupBox();
             this.txtFactura = new System.Windows.Forms.RichTextBox();
+            this.lblFinde = new System.Windows.Forms.Label();
+            this.txtFinde = new System.Windows.Forms.TextBox();
             this.gbLocales.SuspendLayout();
             this.gbNacionales.SuspendLayout();
             this.gbInternacionales.SuspendLayout();
@@ -81,33 +83,26 @@
             // 
             // gbLocales
             // 
+            this.gbLocales.Controls.Add(this.txtFinde);
+            this.gbLocales.Controls.Add(this.lblFinde);
             this.gbLocales.Controls.Add(this.txtHoraNoPico);
             this.gbLocales.Controls.Add(this.lblHoraNoPico);
             this.gbLocales.Controls.Add(this.txtHoraPico);
             this.gbLocales.Controls.Add(this.lblHoraPico);
             this.gbLocales.Location = new System.Drawing.Point(13, 34);
             this.gbLocales.Name = "gbLocales";
-            this.gbLocales.Size = new System.Drawing.Size(385, 117);
+            this.gbLocales.Size = new System.Drawing.Size(385, 164);
             this.gbLocales.TabIndex = 1;
             this.gbLocales.TabStop = false;
             this.gbLocales.Text = "Llamadas locales";
             // 
-            // lblHoraPico
+            // txtHoraNoPico
             // 
-            this.lblHoraPico.AutoSize = true;
-            this.lblHoraPico.Location = new System.Drawing.Point(7, 33);
-            this.lblHoraPico.Name = "lblHoraPico";
-            this.lblHoraPico.Size = new System.Drawing.Size(147, 17);
-            this.lblHoraPico.TabIndex = 0;
-            this.lblHoraPico.Text = "Minutos en horas pico";
-            // 
-            // txtHoraPico
-            // 
-            this.txtHoraPico.Location = new System.Drawing.Point(195, 33);
-            this.txtHoraPico.Name = "txtHoraPico";
-            this.txtHoraPico.Size = new System.Drawing.Size(184, 22);
-            this.txtHoraPico.TabIndex = 1;
-            this.txtHoraPico.Text = "0";
+            this.txtHoraNoPico.Location = new System.Drawing.Point(195, 78);
+            this.txtHoraNoPico.Name = "txtHoraNoPico";
+            this.txtHoraNoPico.Size = new System.Drawing.Size(184, 22);
+            this.txtHoraNoPico.TabIndex = 3;
+            this.txtHoraNoPico.Text = "0";
             // 
             // lblHoraNoPico
             // 
@@ -118,13 +113,22 @@
             this.lblHoraNoPico.TabIndex = 2;
             this.lblHoraNoPico.Text = "Minutos en horas no pico";
             // 
-            // txtHoraNoPico
+            // txtHoraPico
             // 
-            this.txtHoraNoPico.Location = new System.Drawing.Point(195, 78);
-            this.txtHoraNoPico.Name = "txtHoraNoPico";
-            this.txtHoraNoPico.Size = new System.Drawing.Size(184, 22);
-            this.txtHoraNoPico.TabIndex = 3;
-            this.txtHoraNoPico.Text = "0";
+            this.txtHoraPico.Location = new System.Drawing.Point(195, 33);
+            this.txtHoraPico.Name = "txtHoraPico";
+            this.txtHoraPico.Size = new System.Drawing.Size(184, 22);
+            this.txtHoraPico.TabIndex = 1;
+            this.txtHoraPico.Text = "0";
+            // 
+            // lblHoraPico
+            // 
+            this.lblHoraPico.AutoSize = true;
+            this.lblHoraPico.Location = new System.Drawing.Point(7, 33);
+            this.lblHoraPico.Name = "lblHoraPico";
+            this.lblHoraPico.Size = new System.Drawing.Size(147, 17);
+            this.lblHoraPico.TabIndex = 0;
+            this.lblHoraPico.Text = "Minutos en horas pico";
             // 
             // gbNacionales
             // 
@@ -138,48 +142,52 @@
             this.gbNacionales.Controls.Add(this.lblNOA);
             this.gbNacionales.Controls.Add(this.lblLitoral);
             this.gbNacionales.Controls.Add(this.lblCentro);
-            this.gbNacionales.Location = new System.Drawing.Point(13, 158);
+            this.gbNacionales.Location = new System.Drawing.Point(13, 204);
             this.gbNacionales.Name = "gbNacionales";
             this.gbNacionales.Size = new System.Drawing.Size(385, 236);
             this.gbNacionales.TabIndex = 2;
             this.gbNacionales.TabStop = false;
             this.gbNacionales.Text = "Llamadas nacionales";
             // 
-            // lblCentro
+            // txtCentro
             // 
-            this.lblCentro.AutoSize = true;
-            this.lblCentro.Location = new System.Drawing.Point(7, 43);
-            this.lblCentro.Name = "lblCentro";
-            this.lblCentro.Size = new System.Drawing.Size(159, 17);
-            this.lblCentro.TabIndex = 0;
-            this.lblCentro.Text = "Minutos a región Centro";
+            this.txtCentro.Location = new System.Drawing.Point(195, 40);
+            this.txtCentro.Name = "txtCentro";
+            this.txtCentro.Size = new System.Drawing.Size(178, 22);
+            this.txtCentro.TabIndex = 9;
+            this.txtCentro.Text = "0";
             // 
-            // lblLitoral
+            // txtLitoral
             // 
-            this.lblLitoral.AutoSize = true;
-            this.lblLitoral.Location = new System.Drawing.Point(6, 82);
-            this.lblLitoral.Name = "lblLitoral";
-            this.lblLitoral.Size = new System.Drawing.Size(156, 17);
-            this.lblLitoral.TabIndex = 1;
-            this.lblLitoral.Text = "Minutos a región Litoral";
+            this.txtLitoral.Location = new System.Drawing.Point(195, 79);
+            this.txtLitoral.Name = "txtLitoral";
+            this.txtLitoral.Size = new System.Drawing.Size(178, 22);
+            this.txtLitoral.TabIndex = 8;
+            this.txtLitoral.Text = "0";
             // 
-            // lblNOA
+            // txtNOA
             // 
-            this.lblNOA.AutoSize = true;
-            this.lblNOA.Location = new System.Drawing.Point(7, 122);
-            this.lblNOA.Name = "lblNOA";
-            this.lblNOA.Size = new System.Drawing.Size(175, 17);
-            this.lblNOA.TabIndex = 2;
-            this.lblNOA.Text = "Minutos a región Noroeste";
+            this.txtNOA.Location = new System.Drawing.Point(195, 119);
+            this.txtNOA.Name = "txtNOA";
+            this.txtNOA.Size = new System.Drawing.Size(178, 22);
+            this.txtNOA.TabIndex = 7;
+            this.txtNOA.Text = "0";
             // 
-            // lblCuyo
+            // txtCuyo
             // 
-            this.lblCuyo.AutoSize = true;
-            this.lblCuyo.Location = new System.Drawing.Point(7, 164);
-            this.lblCuyo.Name = "lblCuyo";
-            this.lblCuyo.Size = new System.Drawing.Size(149, 17);
-            this.lblCuyo.TabIndex = 3;
-            this.lblCuyo.Text = "Minutos a región Cuyo";
+            this.txtCuyo.Location = new System.Drawing.Point(195, 161);
+            this.txtCuyo.Name = "txtCuyo";
+            this.txtCuyo.Size = new System.Drawing.Size(178, 22);
+            this.txtCuyo.TabIndex = 6;
+            this.txtCuyo.Text = "0";
+            // 
+            // txtPatagonia
+            // 
+            this.txtPatagonia.Location = new System.Drawing.Point(195, 199);
+            this.txtPatagonia.Name = "txtPatagonia";
+            this.txtPatagonia.Size = new System.Drawing.Size(178, 22);
+            this.txtPatagonia.TabIndex = 5;
+            this.txtPatagonia.Text = "0";
             // 
             // lblPatagonia
             // 
@@ -190,45 +198,41 @@
             this.lblPatagonia.TabIndex = 4;
             this.lblPatagonia.Text = "Minutos a región Patagonia";
             // 
-            // txtPatagonia
+            // lblCuyo
             // 
-            this.txtPatagonia.Location = new System.Drawing.Point(195, 199);
-            this.txtPatagonia.Name = "txtPatagonia";
-            this.txtPatagonia.Size = new System.Drawing.Size(178, 22);
-            this.txtPatagonia.TabIndex = 5;
-            this.txtPatagonia.Text = "0";
+            this.lblCuyo.AutoSize = true;
+            this.lblCuyo.Location = new System.Drawing.Point(7, 164);
+            this.lblCuyo.Name = "lblCuyo";
+            this.lblCuyo.Size = new System.Drawing.Size(149, 17);
+            this.lblCuyo.TabIndex = 3;
+            this.lblCuyo.Text = "Minutos a región Cuyo";
             // 
-            // txtCuyo
+            // lblNOA
             // 
-            this.txtCuyo.Location = new System.Drawing.Point(195, 161);
-            this.txtCuyo.Name = "txtCuyo";
-            this.txtCuyo.Size = new System.Drawing.Size(178, 22);
-            this.txtCuyo.TabIndex = 6;
-            this.txtCuyo.Text = "0";
+            this.lblNOA.AutoSize = true;
+            this.lblNOA.Location = new System.Drawing.Point(7, 122);
+            this.lblNOA.Name = "lblNOA";
+            this.lblNOA.Size = new System.Drawing.Size(175, 17);
+            this.lblNOA.TabIndex = 2;
+            this.lblNOA.Text = "Minutos a región Noroeste";
             // 
-            // txtNOA
+            // lblLitoral
             // 
-            this.txtNOA.Location = new System.Drawing.Point(195, 119);
-            this.txtNOA.Name = "txtNOA";
-            this.txtNOA.Size = new System.Drawing.Size(178, 22);
-            this.txtNOA.TabIndex = 7;
-            this.txtNOA.Text = "0";
+            this.lblLitoral.AutoSize = true;
+            this.lblLitoral.Location = new System.Drawing.Point(6, 82);
+            this.lblLitoral.Name = "lblLitoral";
+            this.lblLitoral.Size = new System.Drawing.Size(156, 17);
+            this.lblLitoral.TabIndex = 1;
+            this.lblLitoral.Text = "Minutos a región Litoral";
             // 
-            // txtLitoral
+            // lblCentro
             // 
-            this.txtLitoral.Location = new System.Drawing.Point(195, 79);
-            this.txtLitoral.Name = "txtLitoral";
-            this.txtLitoral.Size = new System.Drawing.Size(178, 22);
-            this.txtLitoral.TabIndex = 8;
-            this.txtLitoral.Text = "0";
-            // 
-            // txtCentro
-            // 
-            this.txtCentro.Location = new System.Drawing.Point(195, 40);
-            this.txtCentro.Name = "txtCentro";
-            this.txtCentro.Size = new System.Drawing.Size(178, 22);
-            this.txtCentro.TabIndex = 9;
-            this.txtCentro.Text = "0";
+            this.lblCentro.AutoSize = true;
+            this.lblCentro.Location = new System.Drawing.Point(7, 43);
+            this.lblCentro.Name = "lblCentro";
+            this.lblCentro.Size = new System.Drawing.Size(159, 17);
+            this.lblCentro.TabIndex = 0;
+            this.lblCentro.Text = "Minutos a región Centro";
             // 
             // gbInternacionales
             // 
@@ -246,55 +250,58 @@
             this.gbInternacionales.Controls.Add(this.lblLATAM);
             this.gbInternacionales.Location = new System.Drawing.Point(414, 34);
             this.gbInternacionales.Name = "gbInternacionales";
-            this.gbInternacionales.Size = new System.Drawing.Size(379, 225);
+            this.gbInternacionales.Size = new System.Drawing.Size(352, 225);
             this.gbInternacionales.TabIndex = 3;
             this.gbInternacionales.TabStop = false;
             this.gbInternacionales.Text = "Llamadas internacionales";
             // 
-            // lblLATAM
+            // txtNorteamerica
             // 
-            this.lblLATAM.AutoSize = true;
-            this.lblLATAM.Location = new System.Drawing.Point(5, 32);
-            this.lblLATAM.Name = "lblLATAM";
-            this.lblLATAM.Size = new System.Drawing.Size(162, 17);
-            this.lblLATAM.TabIndex = 0;
-            this.lblLATAM.Text = "Minutos a Latinoámerica";
+            this.txtNorteamerica.Location = new System.Drawing.Point(174, 64);
+            this.txtNorteamerica.Name = "txtNorteamerica";
+            this.txtNorteamerica.Size = new System.Drawing.Size(166, 22);
+            this.txtNorteamerica.TabIndex = 11;
+            this.txtNorteamerica.Text = "0";
             // 
-            // lblNorteamerica
+            // txtOceania
             // 
-            this.lblNorteamerica.AutoSize = true;
-            this.lblNorteamerica.Location = new System.Drawing.Point(5, 67);
-            this.lblNorteamerica.Name = "lblNorteamerica";
-            this.lblNorteamerica.Size = new System.Drawing.Size(158, 17);
-            this.lblNorteamerica.TabIndex = 1;
-            this.lblNorteamerica.Text = "Minutos a Norteamérica";
+            this.txtOceania.Location = new System.Drawing.Point(174, 182);
+            this.txtOceania.Name = "txtOceania";
+            this.txtOceania.Size = new System.Drawing.Size(166, 22);
+            this.txtOceania.TabIndex = 10;
+            this.txtOceania.Text = "0";
             // 
-            // lblEuropa
+            // txtAsia
             // 
-            this.lblEuropa.AutoSize = true;
-            this.lblEuropa.Location = new System.Drawing.Point(5, 98);
-            this.lblEuropa.Name = "lblEuropa";
-            this.lblEuropa.Size = new System.Drawing.Size(119, 17);
-            this.lblEuropa.TabIndex = 2;
-            this.lblEuropa.Text = "Minutos a Europa";
+            this.txtAsia.Location = new System.Drawing.Point(174, 152);
+            this.txtAsia.Name = "txtAsia";
+            this.txtAsia.Size = new System.Drawing.Size(166, 22);
+            this.txtAsia.TabIndex = 9;
+            this.txtAsia.Text = "0";
             // 
-            // lblAfrica
+            // txtAfrica
             // 
-            this.lblAfrica.AutoSize = true;
-            this.lblAfrica.Location = new System.Drawing.Point(6, 127);
-            this.lblAfrica.Name = "lblAfrica";
-            this.lblAfrica.Size = new System.Drawing.Size(109, 17);
-            this.lblAfrica.TabIndex = 3;
-            this.lblAfrica.Text = "Minutos a África";
+            this.txtAfrica.Location = new System.Drawing.Point(174, 124);
+            this.txtAfrica.Name = "txtAfrica";
+            this.txtAfrica.Size = new System.Drawing.Size(166, 22);
+            this.txtAfrica.TabIndex = 8;
+            this.txtAfrica.Text = "0";
             // 
-            // lblAsia
+            // txtEuropa
             // 
-            this.lblAsia.AutoSize = true;
-            this.lblAsia.Location = new System.Drawing.Point(6, 155);
-            this.lblAsia.Name = "lblAsia";
-            this.lblAsia.Size = new System.Drawing.Size(100, 17);
-            this.lblAsia.TabIndex = 4;
-            this.lblAsia.Text = "Minutos a Asia";
+            this.txtEuropa.Location = new System.Drawing.Point(174, 95);
+            this.txtEuropa.Name = "txtEuropa";
+            this.txtEuropa.Size = new System.Drawing.Size(166, 22);
+            this.txtEuropa.TabIndex = 7;
+            this.txtEuropa.Text = "0";
+            // 
+            // txtLATAM
+            // 
+            this.txtLATAM.Location = new System.Drawing.Point(174, 32);
+            this.txtLATAM.Name = "txtLATAM";
+            this.txtLATAM.Size = new System.Drawing.Size(166, 22);
+            this.txtLATAM.TabIndex = 6;
+            this.txtLATAM.Text = "0";
             // 
             // lblOceania
             // 
@@ -305,60 +312,57 @@
             this.lblOceania.TabIndex = 5;
             this.lblOceania.Text = "Minutos a Oceanía";
             // 
-            // txtLATAM
+            // lblAsia
             // 
-            this.txtLATAM.Location = new System.Drawing.Point(174, 32);
-            this.txtLATAM.Name = "txtLATAM";
-            this.txtLATAM.Size = new System.Drawing.Size(199, 22);
-            this.txtLATAM.TabIndex = 6;
-            this.txtLATAM.Text = "0";
+            this.lblAsia.AutoSize = true;
+            this.lblAsia.Location = new System.Drawing.Point(6, 155);
+            this.lblAsia.Name = "lblAsia";
+            this.lblAsia.Size = new System.Drawing.Size(100, 17);
+            this.lblAsia.TabIndex = 4;
+            this.lblAsia.Text = "Minutos a Asia";
             // 
-            // txtEuropa
+            // lblAfrica
             // 
-            this.txtEuropa.Location = new System.Drawing.Point(174, 95);
-            this.txtEuropa.Name = "txtEuropa";
-            this.txtEuropa.Size = new System.Drawing.Size(199, 22);
-            this.txtEuropa.TabIndex = 7;
-            this.txtEuropa.Text = "0";
+            this.lblAfrica.AutoSize = true;
+            this.lblAfrica.Location = new System.Drawing.Point(6, 127);
+            this.lblAfrica.Name = "lblAfrica";
+            this.lblAfrica.Size = new System.Drawing.Size(109, 17);
+            this.lblAfrica.TabIndex = 3;
+            this.lblAfrica.Text = "Minutos a África";
             // 
-            // txtAfrica
+            // lblEuropa
             // 
-            this.txtAfrica.Location = new System.Drawing.Point(174, 124);
-            this.txtAfrica.Name = "txtAfrica";
-            this.txtAfrica.Size = new System.Drawing.Size(199, 22);
-            this.txtAfrica.TabIndex = 8;
-            this.txtAfrica.Text = "0";
+            this.lblEuropa.AutoSize = true;
+            this.lblEuropa.Location = new System.Drawing.Point(5, 98);
+            this.lblEuropa.Name = "lblEuropa";
+            this.lblEuropa.Size = new System.Drawing.Size(119, 17);
+            this.lblEuropa.TabIndex = 2;
+            this.lblEuropa.Text = "Minutos a Europa";
             // 
-            // txtAsia
+            // lblNorteamerica
             // 
-            this.txtAsia.Location = new System.Drawing.Point(174, 152);
-            this.txtAsia.Name = "txtAsia";
-            this.txtAsia.Size = new System.Drawing.Size(199, 22);
-            this.txtAsia.TabIndex = 9;
-            this.txtAsia.Text = "0";
+            this.lblNorteamerica.AutoSize = true;
+            this.lblNorteamerica.Location = new System.Drawing.Point(5, 67);
+            this.lblNorteamerica.Name = "lblNorteamerica";
+            this.lblNorteamerica.Size = new System.Drawing.Size(158, 17);
+            this.lblNorteamerica.TabIndex = 1;
+            this.lblNorteamerica.Text = "Minutos a Norteamérica";
             // 
-            // txtOceania
+            // lblLATAM
             // 
-            this.txtOceania.Location = new System.Drawing.Point(174, 182);
-            this.txtOceania.Name = "txtOceania";
-            this.txtOceania.Size = new System.Drawing.Size(199, 22);
-            this.txtOceania.TabIndex = 10;
-            this.txtOceania.Text = "0";
-            // 
-            // txtNorteamerica
-            // 
-            this.txtNorteamerica.Location = new System.Drawing.Point(174, 64);
-            this.txtNorteamerica.Name = "txtNorteamerica";
-            this.txtNorteamerica.Size = new System.Drawing.Size(199, 22);
-            this.txtNorteamerica.TabIndex = 11;
-            this.txtNorteamerica.Text = "0";
+            this.lblLATAM.AutoSize = true;
+            this.lblLATAM.Location = new System.Drawing.Point(5, 32);
+            this.lblLATAM.Name = "lblLATAM";
+            this.lblLATAM.Size = new System.Drawing.Size(162, 17);
+            this.lblLATAM.TabIndex = 0;
+            this.lblLATAM.Text = "Minutos a Latinoámerica";
             // 
             // btnFacturar
             // 
             this.btnFacturar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFacturar.Location = new System.Drawing.Point(414, 265);
+            this.btnFacturar.Location = new System.Drawing.Point(414, 328);
             this.btnFacturar.Name = "btnFacturar";
-            this.btnFacturar.Size = new System.Drawing.Size(373, 34);
+            this.btnFacturar.Size = new System.Drawing.Size(352, 34);
             this.btnFacturar.TabIndex = 4;
             this.btnFacturar.Text = "Facturar";
             this.btnFacturar.UseVisualStyleBackColor = true;
@@ -366,9 +370,9 @@
             // 
             // btnSalir
             // 
-            this.btnSalir.Location = new System.Drawing.Point(414, 346);
+            this.btnSalir.Location = new System.Drawing.Point(414, 407);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(373, 33);
+            this.btnSalir.Size = new System.Drawing.Size(352, 33);
             this.btnSalir.TabIndex = 5;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
@@ -377,9 +381,9 @@
             // btnLimpiarCampos
             // 
             this.btnLimpiarCampos.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLimpiarCampos.Location = new System.Drawing.Point(414, 305);
+            this.btnLimpiarCampos.Location = new System.Drawing.Point(414, 368);
             this.btnLimpiarCampos.Name = "btnLimpiarCampos";
-            this.btnLimpiarCampos.Size = new System.Drawing.Size(373, 34);
+            this.btnLimpiarCampos.Size = new System.Drawing.Size(352, 34);
             this.btnLimpiarCampos.TabIndex = 6;
             this.btnLimpiarCampos.Text = "Limpiar Campos";
             this.btnLimpiarCampos.UseVisualStyleBackColor = true;
@@ -388,9 +392,9 @@
             // gbFactura
             // 
             this.gbFactura.Controls.Add(this.txtFactura);
-            this.gbFactura.Location = new System.Drawing.Point(800, 13);
+            this.gbFactura.Location = new System.Drawing.Point(772, 13);
             this.gbFactura.Name = "gbFactura";
-            this.gbFactura.Size = new System.Drawing.Size(332, 381);
+            this.gbFactura.Size = new System.Drawing.Size(360, 427);
             this.gbFactura.TabIndex = 7;
             this.gbFactura.TabStop = false;
             this.gbFactura.Text = "Factura";
@@ -401,15 +405,32 @@
             this.txtFactura.Location = new System.Drawing.Point(7, 22);
             this.txtFactura.Name = "txtFactura";
             this.txtFactura.ReadOnly = true;
-            this.txtFactura.Size = new System.Drawing.Size(319, 353);
+            this.txtFactura.Size = new System.Drawing.Size(347, 399);
             this.txtFactura.TabIndex = 0;
             this.txtFactura.Text = "";
+            // 
+            // lblFinde
+            // 
+            this.lblFinde.AutoSize = true;
+            this.lblFinde.Location = new System.Drawing.Point(7, 124);
+            this.lblFinde.Name = "lblFinde";
+            this.lblFinde.Size = new System.Drawing.Size(165, 17);
+            this.lblFinde.TabIndex = 4;
+            this.lblFinde.Text = "Minutos fines de semana";
+            // 
+            // txtFinde
+            // 
+            this.txtFinde.Location = new System.Drawing.Point(195, 123);
+            this.txtFinde.Name = "txtFinde";
+            this.txtFinde.Size = new System.Drawing.Size(184, 22);
+            this.txtFinde.TabIndex = 5;
+            this.txtFinde.Text = "0";
             // 
             // frmFactura
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1144, 412);
+            this.ClientSize = new System.Drawing.Size(1144, 452);
             this.Controls.Add(this.gbFactura);
             this.Controls.Add(this.btnLimpiarCampos);
             this.Controls.Add(this.btnSalir);
@@ -420,6 +441,7 @@
             this.Controls.Add(this.lblInicio);
             this.Name = "frmFactura";
             this.Text = "Nueva factura";
+            this.Load += new System.EventHandler(this.frmFactura_Load);
             this.gbLocales.ResumeLayout(false);
             this.gbLocales.PerformLayout();
             this.gbNacionales.ResumeLayout(false);
@@ -469,6 +491,8 @@
         private System.Windows.Forms.Button btnLimpiarCampos;
         private System.Windows.Forms.GroupBox gbFactura;
         private System.Windows.Forms.RichTextBox txtFactura;
+        private System.Windows.Forms.TextBox txtFinde;
+        private System.Windows.Forms.Label lblFinde;
     }
 }
 

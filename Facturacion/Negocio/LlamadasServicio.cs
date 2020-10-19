@@ -12,10 +12,12 @@ namespace Negocio
         private LlamadaLocal ll;
         private LlamadaNacional ln;
         private LlamadaInternacional li;
-        public double ObtenerTotalLocal(int minutosPico, int minutosNoPico)
+        public double ObtenerTotalLocal(int minutosPico, int minutosNoPico, int minutosFinde)
         {
             ll = new LlamadaLocal();
-            double montoTotal = (minutosPico * ll.TarifaHoraPico) + (minutosNoPico * ll.TarifaNoPico);
+            double montoTotal = (minutosPico * ll.TarifaHoraPico) +
+                (minutosNoPico * ll.TarifaNoPico) +
+                (minutosFinde * ll.TarifaFinde);
             return montoTotal;
         }
         public double ObtenerTotalNacional(int minutosCentro,int minutosLitoral,int minutosNOA,int minutosCuyo,int minutosPatagonia)
