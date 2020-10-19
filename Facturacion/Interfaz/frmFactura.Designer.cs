@@ -30,6 +30,8 @@
         {
             this.lblInicio = new System.Windows.Forms.Label();
             this.gbLocales = new System.Windows.Forms.GroupBox();
+            this.txtFinde = new System.Windows.Forms.TextBox();
+            this.lblFinde = new System.Windows.Forms.Label();
             this.txtHoraNoPico = new System.Windows.Forms.TextBox();
             this.lblHoraNoPico = new System.Windows.Forms.Label();
             this.txtHoraPico = new System.Windows.Forms.TextBox();
@@ -63,8 +65,6 @@
             this.btnLimpiarCampos = new System.Windows.Forms.Button();
             this.gbFactura = new System.Windows.Forms.GroupBox();
             this.txtFactura = new System.Windows.Forms.RichTextBox();
-            this.lblFinde = new System.Windows.Forms.Label();
-            this.txtFinde = new System.Windows.Forms.TextBox();
             this.gbLocales.SuspendLayout();
             this.gbNacionales.SuspendLayout();
             this.gbInternacionales.SuspendLayout();
@@ -95,6 +95,23 @@
             this.gbLocales.TabIndex = 1;
             this.gbLocales.TabStop = false;
             this.gbLocales.Text = "Llamadas locales";
+            // 
+            // txtFinde
+            // 
+            this.txtFinde.Location = new System.Drawing.Point(195, 123);
+            this.txtFinde.Name = "txtFinde";
+            this.txtFinde.Size = new System.Drawing.Size(184, 22);
+            this.txtFinde.TabIndex = 5;
+            this.txtFinde.Text = "0";
+            // 
+            // lblFinde
+            // 
+            this.lblFinde.AutoSize = true;
+            this.lblFinde.Location = new System.Drawing.Point(7, 124);
+            this.lblFinde.Name = "lblFinde";
+            this.lblFinde.Size = new System.Drawing.Size(165, 17);
+            this.lblFinde.TabIndex = 4;
+            this.lblFinde.Text = "Minutos fines de semana";
             // 
             // txtHoraNoPico
             // 
@@ -409,23 +426,6 @@
             this.txtFactura.TabIndex = 0;
             this.txtFactura.Text = "";
             // 
-            // lblFinde
-            // 
-            this.lblFinde.AutoSize = true;
-            this.lblFinde.Location = new System.Drawing.Point(7, 124);
-            this.lblFinde.Name = "lblFinde";
-            this.lblFinde.Size = new System.Drawing.Size(165, 17);
-            this.lblFinde.TabIndex = 4;
-            this.lblFinde.Text = "Minutos fines de semana";
-            // 
-            // txtFinde
-            // 
-            this.txtFinde.Location = new System.Drawing.Point(195, 123);
-            this.txtFinde.Name = "txtFinde";
-            this.txtFinde.Size = new System.Drawing.Size(184, 22);
-            this.txtFinde.TabIndex = 5;
-            this.txtFinde.Text = "0";
-            // 
             // frmFactura
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -439,7 +439,11 @@
             this.Controls.Add(this.gbNacionales);
             this.Controls.Add(this.gbLocales);
             this.Controls.Add(this.lblInicio);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "frmFactura";
+            this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Nueva factura";
             this.Load += new System.EventHandler(this.frmFactura_Load);
             this.gbLocales.ResumeLayout(false);
